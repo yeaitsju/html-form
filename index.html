@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+  </head>
+  <body>
+    <div id="app"></div>
+    <form
+      action="https://formsubmit.co/f89091b500f45a8a3dd76f4b67294824 "
+      method="POST"
+    >
+      <!-- Full Name -->
+      <div class="row">
+        <label class="desc" for="full_name">*Full Name</label>
+        <br />
+        <input
+          id="full_name"
+          name="full_name"
+          type="text"
+          placeholder="John Doe"
+          size="50"
+          tabindex="1"
+          required
+        />
+      </div>
+
+      <!-- Email -->
+      <div class="row">
+        <label class="desc" for="my_email"> *Email </label>
+        <div>
+          <input
+            id="my_email"
+            name="my_email"
+            type="email"
+            spellcheck="false"
+            placeholder="janedoe@gmail.com"
+            maxlength="255"
+            tabindex="2"
+            required
+          />
+        </div>
+      </div>
+
+      <!-- Date -->
+      <div class="row">
+        <label for="my-date"> Date </label>
+        <div>
+          <input
+            id="my-date"
+            name="my-date"
+            type="date"
+            spellcheck="false"
+            placeholder="05/05/2022"
+            maxlength="8"
+            tabindex="3"
+            required
+          />
+        </div>
+      </div>
+
+      <!-- Large Text Area -->
+      <div class="row">
+        <label for="message"> *Message </label>
+
+        <div>
+          <textarea
+            id="message"
+            name="message"
+            spellcheck="true"
+            rows="10"
+            cols="50"
+            tabindex="4"
+            required
+          ></textarea>
+        </div>
+      </div>
+
+      <!-- select box -->
+      <div class="row">
+        <label for="video">Video Type:</label>
+
+        <select name="video type" id="video type" required>
+          <option value="brand awareness">Brand Awareness</option>
+          <option value="promotional">Promotional</option>
+          <option value="entertainment ">Entertainment</option>
+          <option value="documentary">Documentary</option>
+        </select>
+      </div>
+
+      <!-- checkbox -->
+      <div class="row">
+        <input
+          type="checkbox"
+          id="option1"
+          name="option1"
+          value="Camera Operator"
+          required
+        />
+        <label for="option1"> Camera Operator</label><br />
+        
+       
+      </div>
+
+      <!-- <form action="/action_page.php"></form>
+    <input type="submit" value="Submit" /> -->
+      <div class="row">
+        <p>Please select your price:</p>
+        <input type="radio" id="price1" name="price" value="700-1200" />
+        <label for="price1">700 - 1,200</label><br />
+        <input type="radio" id="price2" name="price" value="1500-3000" />
+        <label for="age2">1,500 - 3,000</label><br />
+        <input type="radio" id="price3" name="price" value="4000-10000" />
+        <label for="age3">4,000-10,000</label><br /><br />
+        <input type="submit" value="Submit" />
+      </div>
+    </form>
+
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>

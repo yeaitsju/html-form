@@ -1,0 +1,36 @@
+#app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+  margin-top: 60px;
+}
+
+label {
+  font-weight: bold;
+}
+
+.row{
+  padding-top: 12px;
+}
+
+input:invalid,
+textarea:invalid {
+  border: 2px dashed red;
+}
+
+input:valid,
+textarea:valid {
+  border: 2px solid green;
+}
+
+input[type="checkbox"]:invalid {
+  border: solid 2px red;
+   -webkit-appearance: none;
+  appearance: none;
+  width: 13px;
+  height: 13px;
+  border-radius: 2px;
+  vertical-align: top;
+}
